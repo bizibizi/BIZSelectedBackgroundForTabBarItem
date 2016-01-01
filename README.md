@@ -2,7 +2,7 @@
 
 *Wait for gif presentation, it's loading...*
 
-![alt tag](https://github.com/bizibizi/BIZSelectedBackgroundForTabBarItem/blob/master/presentation.gif)
+![alt tag](https://github.com/bizibizi/BIZSelectedBackgroundForTabBarItem/blob/master/presentation2.gif)
 
 
 BIZSelectedBackgroundForTabBarItem is a category for UITabBarController that adds ability to change background of UITabBar item.
