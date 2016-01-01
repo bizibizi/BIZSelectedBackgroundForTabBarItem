@@ -10,5 +10,5 @@
 
 
 @interface UITabBarController (BIZSelectedBackgroundForTabBarItem)
-- (void)selectBackgroundForItemAtIndex:(NSUInteger)index backgroundColor:(UIColor *)backgroundColor withEarlySelect:(BOOL)earlySelect;
+- (void)selectBackgroundForItemAtIndex:(NSUInteger)index backgroundColor:(UIColor *)backgroundColor withEarlySelect:(BOOL)earlySelect animated:(BOOL)animated;
 @end

@@ -23,12 +23,13 @@
     
     //Customization
     [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor], NSFontAttributeName : [UIFont systemFontOfSize:18]} forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName : [UIColor whiteColor], NSFontAttributeName : [UIFont systemFontOfSize:18] } forState:UIControlStateNormal];
     [[UITabBar appearance] setBarTintColor:[UIColor blueColor]];
     
     //Set delegate
     self.delegate = self;
-    [self selectBackgroundForItemAtIndex:0 backgroundColor:[UIColor redColor] withEarlySelect:YES];
+    //Set initial selection
+    [self selectBackgroundForItemAtIndex:0 backgroundColor:[UIColor redColor] withEarlySelect:YES animated:NO];
 }
 
 
@@ -38,7 +39,7 @@
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item
 {
     NSUInteger index = [self.tabBar.items indexOfObject:item];
-    [self selectBackgroundForItemAtIndex:index backgroundColor:[UIColor redColor] withEarlySelect:NO];
+    [self selectBackgroundForItemAtIndex:index backgroundColor:[UIColor redColor] withEarlySelect:NO animated:YES];
 }
 
 

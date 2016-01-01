@@ -12,7 +12,7 @@
 @implementation UITabBarController (BIZSelectedBackgroundForTabBarItem)
 
 
-- (void)selectBackgroundForItemAtIndex:(NSUInteger)index backgroundColor:(UIColor *)backgroundColor withEarlySelect:(BOOL)earlySelect
+- (void)selectBackgroundForItemAtIndex:(NSUInteger)index backgroundColor:(UIColor *)backgroundColor withEarlySelect:(BOOL)earlySelect animated:(BOOL)animated
 {
     if (!self.tabBar.items.count) {
         return;
@@ -25,6 +25,11 @@
         if ([layer.name isEqualToString:selectedLayerKey]) {
             selectedLayer = layer;
         }
+    }
+    
+    if (!animated) {
+        [selectedLayer removeFromSuperlayer];
+        selectedLayer = nil;
     }
     
     //Add new layer
@@ -45,6 +50,7 @@
     // * Then view appears to tabBar added more layers by the system
     unsigned indexOfLayer = earlySelect ? 0 : 1;
     [self.tabBar.layer insertSublayer:selectedLayer atIndex:indexOfLayer];
+    
 }
 
 @end
