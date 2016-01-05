@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7EAF19B91C25DCD80008BDD9 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF19B81C25DCD80008BDD9 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m */; settings = {ASSET_TAGS = (); }; };
+		7EACC43C1C3B665600342DDC /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EACC43B1C3B665600342DDC /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m */; settings = {ASSET_TAGS = (); }; };
 		7EE743931C25D73D00ECF15A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE743921C25D73D00ECF15A /* main.m */; };
 		7EE743961C25D73D00ECF15A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE743951C25D73D00ECF15A /* AppDelegate.m */; };
 		7EE7439F1C25D73D00ECF15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE7439D1C25D73D00ECF15A /* Main.storyboard */; };
@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7EAF19B71C25DCD80008BDD9 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+BIZSelectedBackgroundForTabBarItem.h"; sourceTree = "<group>"; };
-		7EAF19B81C25DCD80008BDD9 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+BIZSelectedBackgroundForTabBarItem.m"; sourceTree = "<group>"; };
+		7EACC43A1C3B665600342DDC /* UITabBarController+BIZSelectedBackgroundForTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+BIZSelectedBackgroundForTabBarItem.h"; sourceTree = "<group>"; };
+		7EACC43B1C3B665600342DDC /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+BIZSelectedBackgroundForTabBarItem.m"; sourceTree = "<group>"; };
 		7EE7438E1C25D73D00ECF15A /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE743921C25D73D00ECF15A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EE743941C25D73D00ECF15A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,20 +42,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7EAF19B61C25DCD80008BDD9 /* BIZSelectedBackgroundForTabBarItem */ = {
+		7EACC4391C3B665600342DDC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7EAF19B71C25DCD80008BDD9 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.h */,
-				7EAF19B81C25DCD80008BDD9 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m */,
+				7EACC43A1C3B665600342DDC /* UITabBarController+BIZSelectedBackgroundForTabBarItem.h */,
+				7EACC43B1C3B665600342DDC /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m */,
 			);
-			name = BIZSelectedBackgroundForTabBarItem;
-			path = ../BIZSelectedBackgroundForTabBarItem;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 		7EE743851C25D73D00ECF15A = {
 			isa = PBXGroup;
 			children = (
-				7EAF19B61C25DCD80008BDD9 /* BIZSelectedBackgroundForTabBarItem */,
+				7EACC4391C3B665600342DDC /* Classes */,
 				7EE743901C25D73D00ECF15A /* Example */,
 				7EE7438F1C25D73D00ECF15A /* Products */,
 			);
@@ -165,8 +165,8 @@
 			files = (
 				7EE743B11C25D7E500ECF15A /* TabBarController.m in Sources */,
 				7EE743961C25D73D00ECF15A /* AppDelegate.m in Sources */,
-				7EAF19B91C25DCD80008BDD9 /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m in Sources */,
 				7EE743931C25D73D00ECF15A /* main.m in Sources */,
+				7EACC43C1C3B665600342DDC /* UITabBarController+BIZSelectedBackgroundForTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
