@@ -11,7 +11,12 @@ BIZSelectedBackgroundForTabBarItem is a category for UITabBarController that add
 # Installation
 
 ### Manually
-- Copy BIZSelectedBackgroundForTabBarItem folder to your project 
+- Copy ```Classes``` folder to your project 
+
+### From CocoaPods:
+```objective-c
+pod 'BIZSelectedBackgroundForTabBarItem' 
+```
 
 
 # Usage
